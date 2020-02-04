@@ -1,5 +1,8 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json; charset=utf-8');
+
 /* AUTOLOAD CLASSES */
 spl_autoload_register(function($class_name){
     require_once __DIR__ . "/class/" . $class_name . ".php";
@@ -132,5 +135,3 @@ if (!empty($errors)){
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 print(json_encode($response));
-
-?>
