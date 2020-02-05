@@ -44,10 +44,10 @@ function getQuestionByID($question_list, $qid)
 
 /* Initialise Quiz Data */
 $questions = [
-    new Question(12345, "What is your name?", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "D")
-    // new Question(67890, "What is your favourite colour", ["Green", "No, Blue", "Orange", "Red"], "B"),
-    // new Question(42365, "What is x?", ["1", "2", "y", "a letter"], "D"),
-    // new Question(19462, "Guess the answer", ["Ay", "Bee", "Cee", "Dee"], "A"),
+    new Question(12345, "What is your name?", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "D"),
+    new Question(67890, "What is your favourite colour", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "B"),
+    new Question(42365, "What is x?", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "D"),
+    new Question(19462, "Guess the answer", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "A")
 ];
 
 
