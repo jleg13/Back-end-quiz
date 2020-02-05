@@ -44,42 +44,11 @@ function getQuestionByID($question_list, $qid)
 
 /* Initialise Quiz Data */
 $questions = [
-    new Question(12345, "What is your name?", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "D"),
-    new Question(67890, "What is your favourite colour", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "B"),
-    new Question(42365, "What is x?", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "D"),
-    new Question(19462, "Guess the answer", ['A' => "Larry", 'B' => "Barry", 'C' => "Garry", 'D' => "Harry"], "A")
+    new Question(12345, "Planning is the intelligent estimate of resources required to perform a predefined project successfully at a future date within a defined environment.", ['A' => "True", 'B' => "False", 'C' => "NA", 'D' => "NA"], "A"),
+    new Question(67890, "What attributes DOES NOT make planning for software project unique?", ['A' => "Functionality is the primary output", 'B' => "Productivity and quality are dependent on humans", 'C' => "Output is physical.", 'D' => "Software engineering tools have limited predictability"], "C"),
+    new Question(42365, "What is NOT a key feature of the project management plan?", ['A' => "Estimate: predict status of project", 'B' => "Resources: machines, personnel, materials, etc.", 'C' => "Dates: milestones, end date, etc.", 'D' => "Best practices: things learnt from other projects"], "D"),
+    new Question(19462, "What is not a best practice in software project planning", ['A' => "Creating a work register", 'B' => "Perform variance analysis to uncover the difference between actual and planned behaviour", 'C' => "Norms for planning where knowledge repository is important", 'D' => "Following a process driven approach"], "A")
 ];
-
-
-
-// $questions = [
-//     new Question(12350,
-//         "What is the largest animal to ever exist on earth?",
-//         ["Woolly Mammoth","African elephant","Tyrannosaurus Rex","Sulphur bottom (blue) Whale"],
-//         "D"
-//     ),
-//     new Question(39546,
-//         "Which class has the largest number of animals?",
-//         ["Mammals","Fishes","Insects","Reptiles"],
-//         "C"
-//     ),
-//     new Question(97513,
-//         "Salamander belongs to which class?",
-//         ["Aves","Reptiles","Pisces","Amphibian"],
-//         "D"
-//     ),
-//     new Question(93175,
-//         "Vertebrates and tunicates share which features?",
-//         ["Jaws adapted for feeding","A high degree of cephalisation","A notochord and a dorsal, hollow nerve cord","The formation of structures from the neural crest"],
-//         "C"
-//     ),
-//     new Question(53497,
-//         "The water vascular system of echinoderms...",
-//         ["Functions as a circulatory system that distributes nutrients to body cells","Functions in locomotion, feeding, and gas exchange","Is bilateral in organization, even through the adult animal is not bilateral symmetrical","Moves water through the animal body during suspension feeding"],
-//         "B"
-//     ),
-// ];
-
 
 $question_count = rand(2, count($questions));
 
