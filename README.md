@@ -11,8 +11,8 @@ Currently deployed at on a test site to showcase project at [jlg-fullstack-proje
 
 ## Built With
 
-* [PHP](https://www.php.net/) - Programming language
-* [Heroku](https://www.heroku.com) - App building platform
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 ## Authors
 
@@ -20,6 +20,3 @@ Currently deployed at on a test site to showcase project at [jlg-fullstack-proje
 
 ## Support:
 Please email joshualegresley@gmail.com if further details are required.
-
-## Contributing:
-For major changes, please open an issue first to discuss what you would like to change.
